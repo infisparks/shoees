@@ -2,8 +2,8 @@ import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import ProductDetails from "./ProductDetails";
 
-// This data would typically come from a database or API
-export const products = [
+// Define the products array locally instead of exporting it
+const products = [
   {
     id: "1",
     name: "Ultra Boost Pro",
